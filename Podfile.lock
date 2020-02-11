@@ -1,0 +1,16 @@
+PODS:
+  - mobile-ffmpeg-full (4.2.2)
+
+DEPENDENCIES:
+  - mobile-ffmpeg-full (~> 4.2.2)
+
+SPEC REPOS:
+  trunk:
+    - mobile-ffmpeg-full
+
+SPEC CHECKSUMS:
+  mobile-ffmpeg-full: 42f654ef799818c6b8344ffd5a63c83b53f86745
+
+PODFILE CHECKSUM: 3a8602ec8ead386c4f94c199b9dab8097112a421
+
+COCOAPODS: 1.8.4

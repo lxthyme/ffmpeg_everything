@@ -18,3 +18,11 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController {
+    func test() {
+//        av_register_all()
+
+//        av_register_input_format(<#T##format: UnsafeMutablePointer<AVInputFormat>!##UnsafeMutablePointer<AVInputFormat>!#>)
+    }
+}
+
