@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		477CE9B90A1588E654F5B8A3 /* Pods_LXFFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB557BCB4DE4F06ED289929B /* Pods_LXFFmpeg.framework */; };
 		BEDD1B4423F29814008F58D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD1B4323F29814008F58D6 /* AppDelegate.swift */; };
 		BEDD1B4623F29814008F58D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD1B4523F29814008F58D6 /* SceneDelegate.swift */; };
 		BEDD1B4823F29814008F58D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD1B4723F29814008F58D6 /* ViewController.swift */; };
 		BEDD1B4B23F29814008F58D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD1B4923F29814008F58D6 /* Main.storyboard */; };
 		BEDD1B4D23F29816008F58D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDD1B4C23F29816008F58D6 /* Assets.xcassets */; };
 		BEDD1B5023F29816008F58D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD1B4E23F29816008F58D6 /* LaunchScreen.storyboard */; };
+		BEDD1BFC23F2A635008F58D6 /* LXPlayerVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD1BFA23F2A635008F58D6 /* LXPlayerVC1.swift */; };
+		BEDD1BFD23F2A635008F58D6 /* LXPlayerVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDD1BFB23F2A635008F58D6 /* LXPlayerVC1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		809D8E8A0A19E3BCCFC65FF5 /* Pods-LXFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXFFmpeg.release.xcconfig"; path = "Target Support Files/Pods-LXFFmpeg/Pods-LXFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
+		BB557BCB4DE4F06ED289929B /* Pods_LXFFmpeg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXFFmpeg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDD1B4023F29814008F58D6 /* LXFFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDD1B4323F29814008F58D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDD1B4523F29814008F58D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,18 @@
 		BEDD1B4C23F29816008F58D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDD1B4F23F29816008F58D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEDD1B5123F29816008F58D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD1BE123F29922008F58D6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BEDD1BE323F2992A008F58D6 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		BEDD1BE523F2992F008F58D6 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		BEDD1BE723F29933008F58D6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BEDD1BE923F29939008F58D6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		BEDD1BEB23F2993E008F58D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BEDD1BED23F29997008F58D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BEDD1BEE23F29AB1008F58D6 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		BEDD1BF723F2A5E5008F58D6 /* sd1537000369_2.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sd1537000369_2.MP4; sourceTree = "<group>"; };
+		BEDD1BFA23F2A635008F58D6 /* LXPlayerVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXPlayerVC1.swift; sourceTree = "<group>"; };
+		BEDD1BFB23F2A635008F58D6 /* LXPlayerVC1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXPlayerVC1.xib; sourceTree = "<group>"; };
+		CA3C70D539F3DC0FFADA78CB /* Pods-LXFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXFFmpeg.debug.xcconfig"; path = "Target Support Files/Pods-LXFFmpeg/Pods-LXFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477CE9B90A1588E654F5B8A3 /* Pods_LXFFmpeg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196D830813A5ABD05D12A795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C70D539F3DC0FFADA78CB /* Pods-LXFFmpeg.debug.xcconfig */,
+				809D8E8A0A19E3BCCFC65FF5 /* Pods-LXFFmpeg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BEDD1B3723F29814008F58D6 = {
 			isa = PBXGroup;
 			children = (
+				BEDD1BF823F2A603008F58D6 /* Demo */,
+				BEDD1BF623F2A5DB008F58D6 /* Resource */,
 				BEDD1B4223F29814008F58D6 /* LXFFmpeg */,
 				BEDD1B4123F29814008F58D6 /* Products */,
+				BEDD1BE023F29922008F58D6 /* Frameworks */,
+				196D830813A5ABD05D12A795 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +94,49 @@
 				BEDD1B4C23F29816008F58D6 /* Assets.xcassets */,
 				BEDD1B4E23F29816008F58D6 /* LaunchScreen.storyboard */,
 				BEDD1B5123F29816008F58D6 /* Info.plist */,
+				BEDD1BEE23F29AB1008F58D6 /* PrefixHeader.h */,
+				BEDD1BED23F29997008F58D6 /* PrefixHeader.pch */,
 			);
 			path = LXFFmpeg;
+			sourceTree = "<group>";
+		};
+		BEDD1BE023F29922008F58D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD1BEB23F2993E008F58D6 /* AVFoundation.framework */,
+				BEDD1BE923F29939008F58D6 /* VideoToolbox.framework */,
+				BEDD1BE723F29933008F58D6 /* CoreMedia.framework */,
+				BEDD1BE523F2992F008F58D6 /* libiconv.tbd */,
+				BEDD1BE323F2992A008F58D6 /* libbz2.tbd */,
+				BEDD1BE123F29922008F58D6 /* libz.tbd */,
+				BB557BCB4DE4F06ED289929B /* Pods_LXFFmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDD1BF623F2A5DB008F58D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD1BF723F2A5E5008F58D6 /* sd1537000369_2.MP4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BEDD1BF823F2A603008F58D6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD1BF923F2A60A008F58D6 /* 1 */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		BEDD1BF923F2A60A008F58D6 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD1BFA23F2A635008F58D6 /* LXPlayerVC1.swift */,
+				BEDD1BFB23F2A635008F58D6 /* LXPlayerVC1.xib */,
+			);
+			path = 1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEDD1B5423F29816008F58D6 /* Build configuration list for PBXNativeTarget "LXFFmpeg" */;
 			buildPhases = (
+				CD78E69E3C105058C6E0902A /* [CP] Check Pods Manifest.lock */,
 				BEDD1B3C23F29814008F58D6 /* Sources */,
 				BEDD1B3D23F29814008F58D6 /* Frameworks */,
 				BEDD1B3E23F29814008F58D6 /* Resources */,
@@ -128,10 +201,36 @@
 				BEDD1B5023F29816008F58D6 /* LaunchScreen.storyboard in Resources */,
 				BEDD1B4D23F29816008F58D6 /* Assets.xcassets in Resources */,
 				BEDD1B4B23F29814008F58D6 /* Main.storyboard in Resources */,
+				BEDD1BFD23F2A635008F58D6 /* LXPlayerVC1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD78E69E3C105058C6E0902A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXFFmpeg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEDD1B3C23F29814008F58D6 /* Sources */ = {
@@ -141,6 +240,7 @@
 				BEDD1B4823F29814008F58D6 /* ViewController.swift in Sources */,
 				BEDD1B4423F29814008F58D6 /* AppDelegate.swift in Sources */,
 				BEDD1B4623F29814008F58D6 /* SceneDelegate.swift in Sources */,
+				BEDD1BFC23F2A635008F58D6 /* LXPlayerVC1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,39 +382,61 @@
 		};
 		BEDD1B5523F29816008F58D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3C70D539F3DC0FFADA78CB /* Pods-LXFFmpeg.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P9RYE8ECT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lxthyme/Desktop/Lucky/Demo/LXFFmpeg/LXFFmpeg/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FFmpeg-iOS/include\"";
 				INFOPLIST_FILE = LXFFmpeg/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FFmpeg-iOS/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.hg.LXFFmpeg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/lxthyme/Desktop/Lucky/Demo/LXFFmpeg/LXFFmpeg/PrefixHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
 		BEDD1B5623F29816008F58D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809D8E8A0A19E3BCCFC65FF5 /* Pods-LXFFmpeg.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P9RYE8ECT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/lxthyme/Desktop/Lucky/Demo/LXFFmpeg/LXFFmpeg/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/FFmpeg-iOS/include\"";
 				INFOPLIST_FILE = LXFFmpeg/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FFmpeg-iOS/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.hg.LXFFmpeg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/lxthyme/Desktop/Lucky/Demo/LXFFmpeg/LXFFmpeg/PrefixHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};
